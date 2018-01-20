@@ -1,0 +1,17 @@
+{
+  "name": "web-mockups",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mahanhaz/web-mockups.git",
+  "author": "Mahan <eng.mahan.hazrati@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --colors --watch",
+    "build": "NODE_ENV=development webpack --progress --colors",
+    "standard": "standard ./app/**/*.js",
+    "standard-fix": "standard ./app/**/*.js --fix"
+  }
+}
